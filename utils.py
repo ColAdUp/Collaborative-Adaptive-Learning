@@ -1,6 +1,3 @@
-
-
-
 #IRT Model
 def eval_prediction(model, test):
     model.irt_net.eval()
