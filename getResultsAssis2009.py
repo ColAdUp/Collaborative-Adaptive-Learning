@@ -360,7 +360,7 @@ defaults = {'order_id': 'id',
             'correct': 'correct',
             'multigs':'kc'}
 
-for simulation in range(5,8):
+for simulation in range(5):
     if simulation == 0:
         simulation = ''
     else:
