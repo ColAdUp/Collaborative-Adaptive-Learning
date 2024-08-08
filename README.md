@@ -10,9 +10,10 @@ Our work presents solutions for test assignments for groups of learners in educa
 Before you begin, ensure you have met the following requirements:
 
 * You have python3 installed
-* You have R installed
 * You have installed requirements  `pip install -r requirements.txt`
-* You have jupyter notebook installed
+* You have R installed
+* You have Anticlust R library installed `install.packages("anticlust")`
+* You have Jupyter notebook installed
 
 ## Reproducibility of Experiments
 To reproduce the reported results:
