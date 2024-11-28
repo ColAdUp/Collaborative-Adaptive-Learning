@@ -71,8 +71,8 @@ for simulation in range(5):
                 del df_2
 
             elif dataset == 'Neurips':
-                df = pd.read_csv('./Data/data/train_data/train_task_1_2.csv')
-                df_m = pd.read_csv('./Data/data/metadata/question_metadata_task_1_2.csv')
+                df = pd.read_csv('./Data/train_task_1_2.csv')
+                df_m = pd.read_csv('./Data/question_metadata_task_1_2.csv')
 
                 df = df[['UserId', 'QuestionId', 'IsCorrect']].drop_duplicates()
                 df = pd.merge(df,df_m)
